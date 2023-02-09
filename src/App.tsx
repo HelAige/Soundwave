@@ -1,9 +1,10 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import Discover from './components/Discover';
-import FeelTheMusic from './components/FeelTheMusic';
+import Discover from './components/Discover/Discover';
+import FeelTheMusic from './components/FeelTheMusic/FeelTheMusic';
 import Join from './components/Join';
 import Layout from './components/Layout';
+import './components/GeneralStyles.css'
 
 const App = () => {
   return (
