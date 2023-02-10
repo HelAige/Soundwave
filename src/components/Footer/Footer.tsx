@@ -1,14 +1,19 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import { Foot } from './FooterStyle'
+
+import { Foot, Div, Link } from './FooterStyle'
+
 
 const Footer = () => {
     return (
     <Foot>
-        <Link to=''>About Us</Link>
-        <Link to=''>Contact</Link>
-        <Link to=''>Twiter</Link>
-        <Link to=''>Facebook</Link>
+        <Div>
+            <Link>About Us</Link>
+            <Link>Contact</Link>
+        </Div>
+        <Div>
+            <Link>Twiter</Link>
+            <Link>Facebook</Link>
+        </Div>
     </Foot>
     )
 }

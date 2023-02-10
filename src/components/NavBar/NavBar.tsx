@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../assets/logo.png'
+import logo from '../../assets/logo.png'
 import { Nav, Soundwave, Disc, Logo } from './NavBarStyle'
 
 type Props = {}

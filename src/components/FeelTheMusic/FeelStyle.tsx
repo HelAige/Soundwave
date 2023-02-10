@@ -23,7 +23,7 @@ export const H1 = styled.h1`
     grid-column: 1/3;
     grid-row: 1/2;
     margin: 5%;
-    font-size: xx-large;
+    font-size: 40px;
 `
 export const P = styled.p`
     grid-row: 2/3;
