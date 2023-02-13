@@ -12,7 +12,7 @@ export const Soundwave = styled.div`
 display: flex;
 justify-content: left;
 align-items: center;
-margin-left: 9em;
+margin-left: 12em;
 gap: 1em;
 text-decoration: none;
 `
@@ -20,7 +20,7 @@ export const Disc = styled.div`
 display: flex;
 justify-content: flex-end;
 align-items: center;
-margin-right: 9em;
+margin-right: 12em;
 gap: 1em;
 `
 
